@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="EmptyView" customModule="Recipes" customModuleProvider="target">
+            <connections>
+                <outlet property="textLabel" destination="gfX-xs-aYp" id="qRX-uK-QFm"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="URV-vO-p79">
+            <rect key="frame" x="0.0" y="0.0" width="385" height="603"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="16" translatesAutoresizingMaskIntoConstraints="NO" id="ReO-3c-p2t">
+                    <rect key="frame" x="16" y="246" width="353" height="111.5"/>
+                    <subviews>
+                        <imageView userInteractionEnabled="NO" alpha="0.5" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Empty" translatesAutoresizingMaskIntoConstraints="NO" id="Ssb-BB-VLn">
+                            <rect key="frame" x="139" y="0.0" width="75" height="75"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="75" id="ST7-Ub-n5O"/>
+                                <constraint firstAttribute="width" constant="75" id="ZNJ-Oi-7EC"/>
+                            </constraints>
+                        </imageView>
+                        <label opaque="NO" userInteractionEnabled="NO" alpha="0.5" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Text" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gfX-xs-aYp">
+                            <rect key="frame" x="160.5" y="91" width="32.5" height="20.5"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                    </subviews>
+                </stackView>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstItem="ReO-3c-p2t" firstAttribute="centerX" secondItem="URV-vO-p79" secondAttribute="centerX" id="D6f-ux-At9"/>
+                <constraint firstItem="57Q-WN-LhV" firstAttribute="trailing" secondItem="ReO-3c-p2t" secondAttribute="trailing" constant="16" id="GaJ-Yz-OcZ"/>
+                <constraint firstItem="ReO-3c-p2t" firstAttribute="leading" secondItem="URV-vO-p79" secondAttribute="leading" constant="16" id="kQQ-zL-b8G"/>
+                <constraint firstItem="ReO-3c-p2t" firstAttribute="centerY" secondItem="URV-vO-p79" secondAttribute="centerY" id="qgc-Ye-mfK"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <viewLayoutGuide key="safeArea" id="57Q-WN-LhV"/>
+            <point key="canvasLocation" x="47.5" y="-58.5"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="Empty" width="75" height="75"/>
+    </resources>
+</document>

@@ -1,0 +1,42 @@
+PODS:
+  - CoreStore (5.3.1)
+  - RxAtomic (4.4.0)
+  - RxCocoa (4.4.0):
+    - RxSwift (~> 4.0)
+  - RxSwift (4.4.0):
+    - RxAtomic (~> 4.4)
+  - SwiftLint (0.28.0)
+  - Swinject (2.5.0)
+  - SwinjectStoryboard (2.1.0):
+    - Swinject (~> 2.5)
+
+DEPENDENCIES:
+  - CoreStore (~> 5.0)
+  - RxCocoa (~> 4.4)
+  - RxSwift (~> 4.4)
+  - SwiftLint (~> 0.28)
+  - Swinject (~> 2.5)
+  - SwinjectStoryboard (~> 2.1)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - CoreStore
+    - RxAtomic
+    - RxCocoa
+    - RxSwift
+    - SwiftLint
+    - Swinject
+    - SwinjectStoryboard
+
+SPEC CHECKSUMS:
+  CoreStore: 89d0c8e7a9d76d0c533018b4850245c973f4ecbd
+  RxAtomic: eacf60db868c96bfd63320e28619fe29c179656f
+  RxCocoa: df63ebf7b9a70d6b4eeea407ed5dd4efc8979749
+  RxSwift: 5976ecd04fc2fefd648827c23de5e11157faa973
+  SwiftLint: 088cfacb75b45970017e62b7524d506776d60148
+  Swinject: 82cdb851f63f91bba974e3eca1d69780f2f7677e
+  SwinjectStoryboard: 688f096033103e66ffcf6ca678211acd7d7be505
+
+PODFILE CHECKSUM: ea198ee7c6e5ed6772b693de6756d91cdc5c872d
+
+COCOAPODS: 1.5.3

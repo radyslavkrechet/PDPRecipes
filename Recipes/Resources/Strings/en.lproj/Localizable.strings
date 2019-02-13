@@ -1,0 +1,32 @@
+"soup" = "Soup";
+"appetizer" = "Appetizer";
+"salad" = "Salad";
+"bread" = "Bread";
+"drink" = "Drink";
+"dessert" = "Dessert";
+"main-dish" = "Main dish";
+"sauce" = "Sauce";
+"side-dish" = "Side dish";
+
+"kg" = "kg";
+"g" = "g";
+"l" = "l";
+"ml" = "ml";
+"tbsp" = "tbsp";
+"tsp" = "tsp";
+"pc" = "pc";
+
+"errorView.unknownError" = "Unknown error";
+
+"preloadViewController.alert.title" = "You are not sined in";
+"preloadViewController.alert.message" = "Sign in with your Apple ID to use Recipes";
+"preloadViewController.alert.settings" = "Settings";
+"preloadViewController.alert.ok" = "OK";
+
+"recipesViewController.emptyStateMessage" = "There are no recipes\nin this category";
+
+"recipeViewController.alert.deleteRecipe" = "Delete Recipe";
+"recipeViewController.alert.cancel" = "Cancel";
+
+"recipeFormTableProvider.addIngredient" = "Add ingredient";
+"recipeFormTableProvider.addStep" = "Add step";
